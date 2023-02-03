@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(to right, #9ABCBB, #FFFFF0);
+	display: flex;
+}
+
+h1 {
+	font-style: italic;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+li {
+	align-items: left;
+	display: inline-block;
+	padding: 0.5em;
+	border-bottom: 1px solid black;
+	margin-left: -30px;
+}
+
+.delClass {
+	align-items: left;
+	display: inline-block;
+	padding: 0.3em;
+	border: solid black 0.5px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.delClass:hover {
+	background: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+#enter {
+	background: rgba(0, 0, 0, 0.2);
+	border: solid black 0.1px;
+	padding: 4px 10px;
+}
+
+#enter:hover {
+	background: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
